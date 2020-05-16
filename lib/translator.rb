@@ -23,6 +23,8 @@ def get_japanese_emoticon(path, emoticon)
       return dict[:japanese]
     end
   end
+  
+  "Sorry, that emoticon was not found"
 end
 
 def get_english_meaning(path, emoticon)
@@ -33,4 +35,6 @@ def get_english_meaning(path, emoticon)
       return key
     end
   end
+  
+  "Sorry, that emoticon was not found"
 end
